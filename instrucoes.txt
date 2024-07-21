@@ -1,0 +1,11 @@
+npm init -y
+
+sudo apt install node-typescript
+
+tsc --init
+
+npm install express mustache-express dotenv
+
+npm install --save-dev @types/express @types/mustache-express @types/node
+
+npm install -g nodemon typescript ts-node
